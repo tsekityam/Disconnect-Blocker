@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9uR-x3-EYD">
+                                <rect key="frame" x="272" y="28" width="55" height="19.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y3a-r4-PGK">
+                                <rect key="frame" x="20" y="262" width="560" height="61"/>
+                                <string key="text"># Malware list by Disconnect
+# License: GPLv3
+# Contact: support [at] disconnect.me</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QUn-u5-CiQ">
+                                <rect key="frame" x="175.5" y="533.5" width="249.5" height="46.5"/>
+                                <string key="text">Deleveped by Tse Kit Yam Licensed under GPLv3
+http://www.gnu.org/licenses/gpl-3.0.en.html</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FXV-zu-kuV">
+                                <rect key="frame" x="20" y="55" width="560" height="61"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text"># Ad filter list by Disconnect
+# License: GPLv3
+# Contact: support [at] disconnect.me</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sar-fJ-4yf">
+                                <rect key="frame" x="20" y="124" width="560" height="61"/>
+                                <string key="text"># Basic tracking list by Disconnect
+# License: GPLv3
+# Contact: support [at] disconnect.me</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRO-gz-XMV">
+                                <rect key="frame" x="20" y="193" width="560" height="61"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text"># Malvertising list by Disconnect
+# License: GPLv3
+# Contact: support [at] disconnect.me</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sar-fJ-4yf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="58Q-9U-kMq"/>
+                            <constraint firstItem="sar-fJ-4yf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="7uk-52-z2g"/>
+                            <constraint firstItem="Y3a-r4-PGK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C0r-4E-OqK"/>
+                            <constraint firstItem="Y3a-r4-PGK" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="GUX-Im-vSs"/>
+                            <constraint firstItem="sar-fJ-4yf" firstAttribute="top" secondItem="FXV-zu-kuV" secondAttribute="bottom" constant="8" id="Gkl-ge-9p0"/>
+                            <constraint firstItem="FXV-zu-kuV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Jgf-Mn-ccL"/>
+                            <constraint firstItem="9uR-x3-EYD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="M14-Rs-SEn"/>
+                            <constraint firstItem="FXV-zu-kuV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O3X-wM-dzn"/>
+                            <constraint firstItem="Y3a-r4-PGK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ts4-et-DzY"/>
+                            <constraint firstItem="JRO-gz-XMV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VKS-oX-Thh"/>
+                            <constraint firstItem="sar-fJ-4yf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="YBw-kr-gk8"/>
+                            <constraint firstItem="9uR-x3-EYD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Z4d-GE-qF0"/>
+                            <constraint firstItem="JRO-gz-XMV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="aSt-em-MHl"/>
+                            <constraint firstItem="JRO-gz-XMV" firstAttribute="top" secondItem="sar-fJ-4yf" secondAttribute="bottom" constant="8" id="dFl-nz-MsI"/>
+                            <constraint firstItem="FXV-zu-kuV" firstAttribute="top" secondItem="9uR-x3-EYD" secondAttribute="bottom" constant="7.5" id="g6w-9d-1bl"/>
+                            <constraint firstItem="Y3a-r4-PGK" firstAttribute="top" secondItem="JRO-gz-XMV" secondAttribute="bottom" constant="8" id="jo1-fu-uUg"/>
+                            <constraint firstItem="FXV-zu-kuV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="mNW-ju-eQv"/>
+                            <constraint firstItem="JRO-gz-XMV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="mqV-ay-lwy"/>
+                            <constraint firstItem="QUn-u5-CiQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rbk-yz-HW1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="QUn-u5-CiQ" secondAttribute="bottom" constant="20" id="yZ5-4m-XRZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="329" y="385"/>
+        </scene>
+    </scenes>
+</document>
